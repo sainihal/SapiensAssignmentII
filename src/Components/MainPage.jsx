@@ -12,6 +12,12 @@ export default function MainPage(props) {
           <li className="mainInstructions">
             <h2> Click on the List to view the list of added data. </h2>
           </li>
+          <li className="mainInstructions">
+            <h2> Form has basic validations for email chech and first_name and last_name has min length of 3. </h2>
+          </li>
+          <li className="mainInstructions">
+            <h2> Also this app doesn't allow duplicate emails.</h2>
+          </li>
         </ul>
       </div>
     </div>
