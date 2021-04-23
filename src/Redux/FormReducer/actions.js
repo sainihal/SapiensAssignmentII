@@ -27,7 +27,7 @@ export const addData = (payload) => (dispatch) => {
   dispatch(addDataRequest());
   axios({
     method: "post",
-    url: "https://dry-river-66247.herokuapp.com/api/data",
+    url: "https://gentle-gorge-77355.herokuapp.com/api/data",
     data: {
       ...payload,
     },

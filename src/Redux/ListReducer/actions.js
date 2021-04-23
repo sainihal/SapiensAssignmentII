@@ -27,7 +27,7 @@ export const resetData = () => ({
 export const getData = (payload) => (dispatch) => {
   dispatch(getDataRequest());
   axios
-    .get("https://dry-river-66247.herokuapp.com/api/data")
+    .get("https://gentle-gorge-77355.herokuapp.com/api/data")
     .then(async (res) => {
       if (res.status === 200) {
         dispatch(getDataSuccess(res));
